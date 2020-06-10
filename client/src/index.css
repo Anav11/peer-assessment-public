@@ -1,0 +1,405 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+    font-size: 17px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.not-found-page__arrow-assistant {
+    font-size: 100px;
+    position: absolute;
+    top: 10;
+    left: 2%;
+    color: #26a69a;
+    cursor: pointer;
+}
+
+.hint-cannot-add-criteria {
+    text-align: center;
+    margin-top: -40px;
+    font-size: 16px;
+    color: #999;
+}
+
+.statistic-table__expert-name {
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    padding: 1px;
+    text-overflow: ellipsis;
+    transform: rotate(270deg);
+}
+
+.poll-page__button-wrapper {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.poll-page__button-wrapper__response-button {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.criterion-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.criterion-card {
+    width: 70%;
+    margin: 1%;
+}
+
+.Сreate-criterion-card__close-button {
+    text-align: right;
+    padding: 5px 5px 0 0;
+}
+
+.Сreate-criterion-card__close-button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.criterion-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.criterion-cards-wrapper__add-button {
+    margin: 0 0 50px 10px;
+    background-color: #f44336;
+}
+
+.card-action__radio {
+    padding: 20px;
+}
+
+.criterion-cards-wrapper__add-button:hover {
+    background-color: #26a69a;
+}
+.criterion-cards-wrapper__add-button:active {
+    background-color: #37b7ab;
+}
+
+.not-found-err {
+    display: flex;
+    justify-content: center;
+}
+
+.not-found-err__bad-face {
+    font-size: 230px;
+}
+
+.not-found-err__text {
+    font-size: 300px;
+    color: #8833FF;
+    cursor: pointer;
+}
+
+.not-found-err__additional-text {
+    font-size: 50px;
+    color: #8833FF;
+}
+
+.main-page__connection-form {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    border: 5px solid #26a69a;
+    border-right: 0px solid;
+    height: 80px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.main-page__connection-form_input {
+    font-weight: 700;
+}
+
+.main-page__input-form {
+    margin-top: 10px;
+}
+
+.main-page__connection-form__button {
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.main-page__connection-form__button:hover {
+    box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+.polls-list__remove-button {
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.create-poll-page__button-wrapper__create-button {
+    font-size: 16px;
+    font-weight: 600;
+    width: 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-poll-page__create-button {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-poll-page__prompt {
+    padding-bottom: 15px;
+    height: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #999;
+}
+
+.main-page__create-button {
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-logo {
+    padding-left: 20px;
+    width: 500px;
+}
+
+.nav-wrapper {
+    font-weight: 600!important;
+    text-shadow: 3px 3px 3px #00000040!important;
+}
+
+.nav__app-logo {
+    padding-left: 20px;
+    width: 230px;
+    transition: 1s;
+}
+
+.navbar {
+    display: flex; 
+    flex-wrap: nowrap; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar__user-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    word-spacing: 5px;
+    padding: 0 1%;
+    border-bottom: 3px solid #FFFFFF90;
+}
+
+.navbar__user-name__expert {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav__app-logo:hover {
+    transform: scale(1.05);
+}
+
+.bottom-line {
+    border-bottom: 1px solid #00000030;
+    padding: 1px;
+    margin: 0 20px;
+}
+
+.main-color_background {
+    background-color: #8833FF;
+}
+
+.card-action__btn_margin-15 {
+    margin-right: 15px;
+}
+
+.card__login {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.card {
+    width: 100%;
+    max-width: 900px;
+}
+
+.authorized-panel {
+    margin-bottom: 30px;
+    display: flex;
+    padding-right: 1%;
+    align-items: center;
+}
+
+.authorized-panel__user-name {
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.btn__registration {
+    text-align: center;
+}
+
+.poll-list__code::after {
+    content: " протокола";
+}
+
+.poll-list__date::after {
+    content: " создания";
+}
+
+.poll-list__change::after {
+    content: "Редактировать";
+}
+
+.poll-list__delete::after {
+    content: "удалить";
+}
+
+.poll-list__results::after {
+    content: "Результаты";
+}
+
+.poll-list__qr::after {
+    content: "QR";
+}
+
+
+/* media tags */
+@media screen and (max-width: 600px) {
+    .nav__app-logo {
+        width: 200px;
+    }
+
+    .app-logo {
+        width: 100%;
+    }
+
+    .navbar__user-name {
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar__user-name {
+        white-space: normal;
+    }
+
+    body {
+        font-size: 14px;
+    }
+    
+    .main-page__connection-form {
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        border: 4px solid #26a69a;
+        border-right: 0px solid;
+        height: 50px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    }
+
+    .main-page__connection-form__button {
+        font-size: 13px;
+        width: 180px;
+        padding: 25px;
+    }
+    
+    .main-page__connection-form_input {
+        font-weight: 400;
+    }
+
+    .main-page__create-button {
+        font-size: 14px;
+        padding: 20px;
+        width: 230px;
+    }
+    
+
+    .not-found-err__bad-face {
+        font-size: 110px;
+    }
+    
+    .not-found-err__text {
+        font-size: 150px;
+        color: #8833FF;
+        cursor: pointer;
+    }
+    
+    .not-found-err__additional-text {
+        font-size: 20px;
+        color: #8833FF;
+    }
+
+    .card-action__radio {
+        padding: 10px;
+    }
+    
+    .criterion-card {
+        width: 100%;
+    }
+
+    .not-found-page__arrow-assistant {
+        font-size: 0;
+    }
+
+    .poll-list__code::after {
+        content: none;
+    }
+
+    .poll-list__date::after {
+        content: none;
+    }
+
+    .poll-list__change::after {
+        content: none;
+    }
+
+    .poll-list__delete::after {
+        content: none;
+    }
+
+    .poll-list__results::after {
+        content: none;
+    }
+
+    .poll-list__qr::after {
+        content: none;
+    }
+
+    .polls-list__remove-button {
+        padding-left: 0px;
+    }
+}
